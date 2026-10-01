@@ -8,7 +8,7 @@ pipeline {
         }
         stage("rename") {
             steps {
-                sh 'mv hdfc ICICI'
+                sh 'mv hdfc ICICIBANK'
             }
         }
     }
